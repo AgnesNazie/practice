@@ -6,6 +6,7 @@ public class Main {
         System.out.println("Nazie!");
         System.out.println("54");
         System.out.println("Sweden");
+        System.out.println("nassjo");
         // modified the program to print my name
     }
 }
