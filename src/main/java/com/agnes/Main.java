@@ -32,7 +32,11 @@ public class Main {
         name=name.replace("e", "i");
 
         //9) how to add IsEmpty method to a string. it is used to return a boolean value. it is very useful with an if statement.
-
+           if(name.isEmpty()) {
+               System.out.println("your name is empty");
+           } else{
+               System.out.println("Hello " + name);
+           }
 
         System.out.println(length);
         System.out.println(letter);
@@ -41,7 +45,6 @@ public class Main {
         System.out.println(name);
         System.out.println(name);
         System.out.println(name);
-
 
     }
 }
